@@ -1,0 +1,101 @@
+/* general text formatting */
+
+
+body {
+   font-family: "Roboto", Verdana, Arial, sans-serif;
+   font-size: 100%;
+   background-color: #ECEFF1;
+}
+
+section {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   border: solid 1pt black;
+
+}
+section h3 {
+  color: white;
+  padding: 0.75em;
+  background-color: #263238;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0em;
+}
+
+caption {
+  color: white;
+  padding: 0.75em;
+  background-color: #607D8B;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+form {
+  padding: 2em;
+}
+
+legend {
+  color: white;
+  padding: 0.75em;
+  background-color: #607D8B;
+  text-align: center;
+  margin-bottom: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 94%;
+  
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+  
+}
+
+label {
+  display: block;
+  margin: 10px 0 0 5px;
+  font-weight: bold;
+}
+
+.status {
+    border-radius: 0.25rem;
+    padding: 3px;
+    color: white;
+}
+
+
+.status-processing {
+    background-color:    #E65100;    
+}
+
+.status-shipped {
+    background-color:   #4CAF50;   
+}
+.status-pending {
+    background-color:    #03A9F4;   
+}
+
+input[type="Submit"] {
+  background-color: #800080;
+  color: white;
+  padding: 0.75em 2em;
+  margin: 10px;
+  border: 1px solid #800080;
+  border-radius: 0;
+  cursor: pointer;
+  
+
+}
+
+
+/* table formatting -- you will add these */
+
+
+
