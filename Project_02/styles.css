@@ -1,0 +1,77 @@
+/* Add your CSS style definitions to this file */
+body {
+    margin: 0 4em;
+    background-color: #f9f9f9;
+}
+    h1, blockquote {
+        font-family: 'Roboto Slab', sans-serif;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 4px;
+    }
+    blockquote {
+        font-size: 1.25rem;
+        border: 1px solid #f9f9f9;
+        background-color: #ececec;
+        padding: 20px;
+    }
+    body, p, a {
+        font-family: 'Open Sans', sans-serif;
+    }
+    body {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 1rem;
+        margin-left: 20px;
+    }
+    article {
+        margin: 10px;
+        padding: 0px;
+        border: 0px;
+        background-color: white;
+    }
+    article p {
+        margin-bottom: 20px;
+    }
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+    #buttons a {
+        border: 2px solid #ececec;
+        border-radius: 10px;
+        padding: 5px 10px;
+        color: #ec8295
+    }
+    #buttons a:hover {
+        background-color: #a9a9ba;
+        color: #9f2042;
+    }
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        color: #9f2042
+    }
+    #details {
+        text-align: center;
+        color: #a9a9ba
+    }
+    .hero {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        background-color: #29293a;
+        color: white;
+        padding: 10px;
+        text-align: left;
+        margin-top: 30px;
+    }
+    footer a {
+        color: #9f2042;
+        text-decoration: none;
+    }
